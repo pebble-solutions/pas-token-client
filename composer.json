@@ -1,0 +1,19 @@
+{
+    "name": "pebble/pas-token-client",
+    "description": "Librairie pour décoder les token émis par Pebble Authenticator Server",
+    "autoload": {
+        "psr-4": {
+            "Pebble\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pebble-solutions/rsa-key-manager"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.5",
+        "pebble/rsa-key-manager": "dev-main"
+    }
+}
