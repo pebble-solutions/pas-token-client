@@ -3,7 +3,7 @@
     "description": "Librairie pour décoder les token émis par Pebble Authenticator Server",
     "autoload": {
         "psr-4": {
-            "Pebble\\Security\\PAS": "src"
+            "Pebble\\Security\\PAS\\": "src"
         }
     },
     "repositories": [
