@@ -72,7 +72,9 @@ class PasToken implements PasTokenInterface {
 
     /**
      * Décode un PASToken afin de renseigner l'objet
+     * 
      * @param string $pasToken
+     * 
      * @return self
      */
     public function decode(?string $pasToken = null): self
