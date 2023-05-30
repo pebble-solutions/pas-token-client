@@ -15,5 +15,6 @@
     "require": {
         "firebase/php-jwt": "^6.5",
         "pebble/rsa-key-manager": "dev-main"
-    }
+    },
+    "minimum-stability": "dev"
 }
