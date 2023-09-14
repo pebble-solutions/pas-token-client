@@ -258,7 +258,7 @@ class PasToken implements PasTokenInterface {
     {
         $headers = apache_request_headers();
 
-        $auth = $headers['Authorization'];
+        $auth = array_key_exists("Authorization", $headers) ? $headers['Authorization'] : "";
         $this->token = str_replace('Bearer ', '', $auth);
 
         return $this;
